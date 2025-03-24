@@ -7,31 +7,6 @@
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
-@media (min-width: 80em) {
-
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 80px;
-  height: 80px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-
-  img {
-    max-width: 175px;
-    border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
-  }
-   }
-}
 
 @import
     "vendor/breakpoint/breakpoint",
@@ -66,3 +41,32 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+
+
+@media (min-width: 80em) {
+
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: 80px;
+  height: 80px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 175px;
+    border-radius: 50%;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid $border-color;
+    }
+  }
+   }
+}
+
