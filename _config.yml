@@ -23,7 +23,7 @@ repository               : # "academicpages/academicpages.github.io"
 author:
   # Biographic information
   name             : "Fan (Frank) Yang"
-  avatar           : "pic.jpg"
+  avatar           : "/images/pic.jpg"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Montreal, QC, Canada"
