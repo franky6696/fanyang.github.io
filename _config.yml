@@ -23,7 +23,7 @@ repository               : # "academicpages/academicpages.github.io"
 author:
   # Biographic information
   name             : "Fan (Frank) Yang"
-  avatar           : "images/apple-touch-icon-180x180.png"
+  avatar           : "profile.png"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Montreal, QC, Canada"
