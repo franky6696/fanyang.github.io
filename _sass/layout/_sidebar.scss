@@ -81,12 +81,12 @@
    ========================================================================== */
 
 // 
-@media (min-width: 80em) {
+@media (min-width: 300em) {
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 70px;
-   height: auto;
+  width: 100px;
+   height: 100px;
   // set width only, for non-square avatars
   // height: 36px;
 
