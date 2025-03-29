@@ -80,13 +80,13 @@
    Author profile and links
    ========================================================================== */
 
-// (min-width: 200em)
-@media  {
+// 
+@media (min-width: 80em) {
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 100px;
-   height: auto;
+  width: 70px;
+   height: 70px;
   // set width only, for non-square avatars
   // height: 36px;
 
