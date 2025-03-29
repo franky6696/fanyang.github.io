@@ -79,12 +79,12 @@
 /*
    Author profile and links
    ========================================================================== */
-
+@media (min-width: 100em) {
 .author__avatar {
   display: table-cell;
   vertical-align: top;
   width: 80px;
-  // height: 80px;
+   height: 80px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -96,7 +96,7 @@
 
   img {
     max-width: 175px;
-    // border-radius: 50%;
+    border-radius: 75%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -104,7 +104,7 @@
     }
   }
 }
-
+}
 .author__content {
   display: table-cell;
   vertical-align: top;
